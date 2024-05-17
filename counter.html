@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding-inline: 10%;
+            padding-block: 0.5%;
+            font-size: 40px;
+            background-color: antiquewhite;
+        }
+        label{
+            font-size: 5rem;
+            padding-inline: 30%;
+        }
+        label:hover{
+            background-color: antiquewhite;
+            color: blueviolet;
+        }
+        #increment:hover{
+            background-color: green;
+        }
+        #decrement:hover{
+            background-color: red;
+        }
+        #reset:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <label id="c1">0</label><br>
+    <button id="increment">+</button>
+    <button id="decrement">-</button>
+    <button id="reset">@</button>
+    <script>
+        var count=0;
+        document.getElementById("increment").onclick = function(){
+            count= count+3;
+            document.getElementById("c1").innerHTML=count;
+        }
+        document.getElementById("decrement").onclick = function(){
+            count= count - 1;
+            document.getElementById("c1").innerHTML=count;
+        }
+        document.getElementById("reset").onclick = function(){
+            count= 0;
+            document.getElementById("c1").innerHTML=count;
+        }
+    </script>
+</body>
+</html>

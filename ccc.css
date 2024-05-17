@@ -1,0 +1,1257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+    
+}
+li , a{
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    text-decoration: none;
+    text-align: right;
+}
+.hp{
+    background-color: #333;
+    display: flex;
+    height: 4em;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.hc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand{
+    padding:5px;
+    margin:5px
+}
+.anc0{
+    background-color:black;
+    height: 4em;
+    padding-top:8px;
+}
+#anc{
+    color:darkgrey;
+    font-size: 16px;
+   margin: 8px 8px;
+   padding: 5px 5px 5px 5px;
+   border: 1px ;
+    text-decoration: none;
+   font-family: "Lato",sans-serif;
+   text-align: center;
+   line-height: 50px;
+}
+.hc-1{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 5px;
+    margin:5px 5px;
+}
+.iconsa{
+    font-size: 2em;
+    height:2em;
+    padding: 0.5em 0.5em;
+    border-right: 1px solid gray;
+    /* margin:0px 2px; */
+}
+.icons1{
+    font-size: 2em;
+    height:2em;
+    padding: 0.5em 0.5em;
+    border-right: 1px solid gray;
+    background-color: green;
+}
+.iconsa:hover{
+    background-color: black;
+}
+.icons1:hover{
+    background-color: black;
+}
+.headone{
+    background-color:#182143;
+    color:whitesmoke;
+    /* justify-content: space-around; */
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.anc-dec-none{
+    text-decoration: none;
+    color: white;
+    /* word-spacing: 50px; */
+    font-family: "Lato",sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+    border-right: 1px solid black;
+    font-weight: normal;  
+}
+@media screen and (min-width:200px) and (max-width:1042px){
+    .headone
+    {
+        display:none;
+    }
+}
+.map{
+    color: #67942C
+}
+.drop{
+    width: 180%;
+    height: 7vh;
+    background-color: #67942C;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-size: 500;
+    font-family: "Lord",sans-serif;
+    
+}
+.Navbar {
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    /* padding: 16px; */
+    padding-block: 1%;
+    padding-inline: 16px;
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+  }
+  
+  .Navbar__Link {
+    padding-left: 0%;
+    padding-top: 1%;
+  }
+  .Navbar__Link a{
+    color: black;
+    font-size: 19px;
+    font-family: "Lord"sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .Navbar__Items--right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+   .Navbar__Link{
+    padding-left: 10%;;
+   }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  #nav-act1:hover{
+    border-bottom:5px solid #88C417;
+}
+  .nav1{
+    display: flex;
+  }
+.bg-image{
+    background-image: url(" https://preview.colorlib.com/theme/loanday/img/hero-bg.jpg.webp");
+    width: 100%;
+    /* height: 120vh; */
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.section1flex{
+    height: 100%;
+    padding-block: 10%;
+  
+    /* flex-wrap: wrap; */
+    /* margin-inline: -15px; */
+}
+.bgab{
+    background-color: #88C417;
+    display: flex;
+    justify-content: space-between;
+}
+.bg1{
+    /* background-color: #88C417; */
+    height: 55vh;
+    margin-block: 5px;
+    /* width: 20%; */
+    
+}
+.cont{
+height: 100%;
+
+}
+.block-1{
+    padding-block: 30px;
+    margin-left: 15%;
+}
+
+.block-1 h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    font-family: "Lato",sans-serif;
+    
+}
+.block-1 a{
+    font-size: 16px;
+    font-family: "Lord"sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+@media all  and(max-width:320px){
+    .anco{
+        font-size: 12px;
+        padding: 8px;
+        font-weight: 500;
+        font-family: "Lord"sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+}
+.anco{
+    margin-left:2em;
+}
+
+.block-1 p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    /* text-align: center; */
+    /* margin-left: 7%; */
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+form{
+    max-width:85%;
+    padding: 10% 5%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin-left: 20%;
+}
+
+
+form  h3{
+    font-size: 32px;
+    font-family: "Lato",sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.form-data-1{
+    width: 100%;
+    padding-left: 10px;
+    /* padding-bottom: 0%; */
+}
+.form-data-1 input{
+    width: 100%;
+    height: 7vh;
+    background-color: #F6F6F6;
+    border: none;
+}
+.form-data-2{
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 7%;
+    padding-top: 3%;
+}
+.form-data-2 input{
+    width: 100%;
+    height: 7vh;
+    background-color: #F6F6F6;
+    border: none;
+    
+}
+.form-data-3{
+    width: 100%;
+    padding-left: 10px;
+}
+.form-data-3 button{
+    width: 100%;
+    height: 7vh;
+    border: none;
+    background-color: #88C417;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Lord",sans-serif;
+}
+.bg-1-1{
+    width: 100%;
+}
+.sec2{
+    height: 100%;
+    padding-block: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-2{
+    /* padding-block: 30px; */
+    /* margin-left: 10%; */
+    /* align-self: center; */
+
+}
+.input-2 h4{
+    font-size: 38px;
+    font-family: "Lord",sans-serif;
+    font-weight: 600;
+}
+.input-2 p{
+    font-size: 15px;
+    font-family: "Lord",sans-serif;
+    padding-top: 5%;
+}
+.input-2 a{
+    padding: 17px;
+    background-color: #88C417;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Lord",sans-serif;
+    text-decoration: none;
+}
+.head1{
+    font-size: 27px;
+    font-family: "Lord",sans-serif;
+    font-weight: 550;
+}
+.sec2-1{
+    padding-block: 5%;
+    height: 100%;
+}
+.img-1{
+   /* min-width: 100%; */
+   /* padding-left: 20%; */
+}
+
+.bg-1-2{
+    min-width: 100%;
+    background-color: #F6F7F9;
+}
+.sec3{
+    height: 100%;
+    padding-block: 5%;
+    
+}
+.input3{
+    /* padding-inline: 30%; */
+}
+.input3 h2{
+    font-size: 30px;
+    font-family: "Lord",sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.input3 p{
+    font-size: 15px;
+    font-family: "Lord",sans-serif;
+    font-weight: 500;
+   padding-top: 3%;
+   text-align: center;
+}
+.shead{
+    text-align: center ;
+}
+.shead h4{
+    font-size: 35px;
+    font-family: "Lord",sans-serif;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  
+}
+.shead p{
+    padding-bottom: 10%;
+}
+.card1{
+    text-align: center;
+    padding-block: 10%;
+    padding-inline: 10%;
+    background-color: #F6F6F6;
+    position: relative;
+    margin-bottom: 20%;
+}
+.card1 h4{
+    padding-top: 10%;
+}
+.card1 p{
+    padding-block: 5px;
+}
+.card1 img{
+    position: absolute;
+   top: -40px;
+   left: 10em;
+}
+.bgpto{
+    background-image: url('https://preview.colorlib.com/theme/loanday/img/call-bg.jpg');
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* height: 30vh; */
+}
+.cont1{
+    height:100%
+}
+.r4{
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+  
+}
+.details{
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+.details h4 {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Lord",sans-serif;
+    font-weight: 700;
+    padding-bottom: 3%;
+}
+.details p{
+    color: white;
+    font-size: 15px;
+    font-family: "Lord",sans-serif;
+    font-weight: 400;
+    padding-bottom: 10%;
+}
+.details a{
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #88C417 ;
+    text-decoration-thickness:3px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 0px;
+    letter-spacing: 1px;
+}
+
+.r5{
+    display:flex;  
+}
+.form1{
+    padding-left: 10%;
+}
+.ip1{
+    padding-block: 5%;
+    padding-inline: 12%;
+    border-radius: 2px;
+    border:none;
+    margin: 10px;
+  
+}
+.but{
+    padding-block: 4%;
+    padding-left: 2%;
+}
+.but button{
+   padding-block: 5%;
+   padding-inline: 20%;
+   border: none;
+   background-color: #88C417;
+   border-radius: 2px;
+   color: #ffffff;
+   font-weight: 600;
+}
+.d1{
+   text-align: center; 
+}
+.d1 h4{
+    font-size: 37px;
+    font-family: "Lord",sans-serif;
+    font-weight: 700;
+    padding-top: 7%;
+    padding-bottom: 1%;
+}
+.c1r{
+    padding-top:7%;
+    width: 100%;
+    /* padding-left: 10%; */
+}
+.t1{
+    border: 1px solid black;
+    padding-top:15%;
+    padding-bottom: 10%;
+    padding-inline: 10%;
+    
+}
+.t1 h4{
+    /* text-align: center; */
+    font-family: "Lord",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+.t1 h4 a{
+    color: black;
+    text-decoration: none;
+}
+.t1 p{
+    font-size: 15px;
+    font-family: "Lord",sans-serif;
+    font-weight: 400;
+}
+.t1 img{
+    padding-top: 5%;
+}
+.c1r2{
+    padding-block: 4%;
+   text-align: center;
+}
+.viewbtn button{
+    padding-block: 1%;
+    padding-inline: 5%;
+    background-color: #88C417;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Lord",sans-serif;
+    font-weight: 600;
+    border: none;
+}
+.fbg{
+    background-image: url("	https://preview.colorlib.com/theme/loanday/img/contact-widget.jpg");
+}
+.connect{
+    height: 100%;
+}
+.r9{
+    padding-top: 3%;
+    height:100%;
+}
+.col2{
+    /* padding-left: 30%; */
+}
+.col2 h5{
+    color: white;
+    font-size: 25px;
+    font-family: "Lord",sans-serif;
+    font-weight: 600;
+    padding-left: 36%;
+}
+.col2 p{
+    font-size: 40px;
+    color: #88C417;
+    font-family: "Lord",sans-serif;
+    font-weight: 600;
+    padding-left: 30%;
+}
+.c9-1 h4{
+    color: white;
+}
+.c9-1 p{
+    color: gray;
+    font-family: "Lord",sans-serif;
+    font-size:"10px";
+    font-weight: 400;
+}
+.f1{
+    background-color: #182143;
+    width: 100%;
+    /* padding-top: 10px; */
+}
+.fr1{
+    padding-top: 30px;
+    height: 100%;
+}
+.fc1 p{
+    font-size: "1em";
+    color: grey;
+    padding-top: 8%;
+}
+.fc2 h2{
+    color: #F6F6F6;
+    font-size: 26px;
+}
+.fc3 h2{
+    color: #F6F6F6;
+    font-size: 26px;
+}
+.fc4 h2{
+    color:#F6F6F6;
+    font-size: 26px;
+}
+.fc2 p{
+    color: grey;
+}
+.fc3 p a{
+    color:grey;
+}
+.fc4 p{
+    color:grey
+}
+.jacob{
+    width: 100%;
+}
+.la1 h5{
+    color: #88C417;
+    padding-top: 2%;
+    padding-inline-start: 3%;
+    font-size: 18px;
+    font-family: "Lord",sans-serif;
+    font-weight: 600;
+}
+.t1:hover{
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-color: #9b9b9b;
+    }
+    .t1:hover h4 a{
+        color: #88C417;
+        text-decoration: underline;
+    }
+    .sd1{
+        background-image: url("https://preview.colorlib.com/theme/loanday/img/testimonial/testimonial-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 6%;
+        position: relative;
+        width: 100%;
+        height: 600px;
+        
+    }
+    .sdc1{
+        /* height: 100%; */
+    }
+    .sdr1{
+        /* height: 70vh; */
+    }
+    .sdr2{
+        width: 100%;
+        justify-content: center;
+    }
+    .sdcl1 h2{
+        text-align: center;
+        color: white;
+        font-family: "lord",sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .sdcl1 p{
+        color: white;
+        text-align: center;
+        font-family: "Lord",sans-serif;
+        padding-top: 2%;
+        padding-bottom: 30px;
+    }
+    .divcard1{
+        padding-block: 10%;
+        padding-inline: 7%;
+        background-color: #ffffff;
+        box-shadow: rgba(0,0,0,0.1);
+        justify-content: center;
+       border: 1px solid black;
+       border-radius: 4px;
+       position: relative;
+       width:100%;
+       top: 30%;
+       
+       
+    }
+    .sdc12{
+        width: 32%;
+    }
+    .divcard1 h3{
+        padding-top: 10%;
+        text-align: center;
+        font-family: "lord",sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+        padding-bottom: 3%;
+    }
+    .divcard1 h6{
+        color:#88C417;
+        text-align: center;
+        font-family: "lord",sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        padding-bottom: 6%;
+    }
+    .divcard1 p{
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 400;
+        /* line-height: 40px; */
+        padding-bottom: 5%;
+        padding-inline: 7%;
+    }
+    .divcard1 img{
+        position: absolute;
+        top: -11%;
+       left:33%;
+    }
+    .sd2{
+        background-color: #ffffff;
+        width: 100%;
+        height: 80vh;
+        padding-top: 10%;
+        padding-bottom: 23%;
+        
+    }
+    .rddd1 {
+        /* height: 100%; */
+        padding-left: 10%;   
+    }
+    .icons{
+        position: absolute;
+        margin-top: 10%;
+        
+    }
+    .bgs{
+        width: 100%;
+    }
+    .bgs1{
+        /* flex-wrap: wrap; */
+        width: 100%;
+        /* margin: auto; */
+        /* justify-content: space-between; */
+     display: flex;
+     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  
+        /* height: 450px; */
+    }
+    .bg1{
+         width: 20%;
+        background-image: url("https://preview.colorlib.com/theme/loanday/img/loan-services/ls-1.jpg");
+        margin: 0;
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        overflow: hidden;
+        position: relative;
+    }
+    .bg2{
+        width: 20%;
+        background-image: url("https://preview.colorlib.com/theme/loanday/img/loan-services/ls-2.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+    }
+    .bg3{
+        width: 20%;
+        background-image: url("https://preview.colorlib.com/theme/loanday/img/loan-services/ls-3.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+    }
+    .bg4{
+        width: 20%;
+        background-image: url("https://preview.colorlib.com/theme/loanday/img/loan-services/ls-4.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+    }
+    .bg5{
+        width: 20%;
+        background-image: url("https://preview.colorlib.com/theme/loanday/img/loan-services/ls-5.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+    }
+    .carts-cont{
+        margin-top: 400px;
+       position: absolute;
+       
+        }
+        .bg1:hover .carts-cont{
+            position: absolute;
+            left: 0;
+            bottom:0px;
+             transition: all 0.5s;
+             transition-delay: 0.5s;
+            }
+    .bg1 h4{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: "Lord",sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    .bg1 h4 span{
+        color: #88C417;
+    }
+    .bg1 p{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Lord",sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        flex-direction: column;
+        padding:1em ;
+    }
+    .bg1 a{
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-color: #88C417;
+        text-decoration-thickness: 2px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        padding-left: 50px;
+    }
+
+    .bg2:hover .carts-cont{
+        position: absolute;
+        left: 0;
+        bottom:0px;
+         transition: all 0.5s;
+         transition-delay: 0.5s;
+        }
+    .bg2 h4{
+        font-size: 25px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-family: "Lord",sans-serif;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+     .bg2 h4 span{
+            color: #88C417;
+        }
+     .bg2 p{
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Lord",sans-serif;
+            color: #FFFFFF;
+            text-align: center;
+            flex-direction: column;
+            padding:1em ;
+        }
+     .bg2 a{
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: underline;
+            text-decoration-color: #88C417;
+            text-decoration-thickness: 2px;
+            margin-bottom: 10px;
+            margin-left: 40px;
+            padding-left: 50px;
+        }
+
+     .bg3:hover .carts-cont{
+            position: absolute;
+            left: 0;
+            bottom:0px;
+             transition: all 0.5s;
+             transition-delay: 0.5s;
+            }
+    .bg3 h4{
+            font-size: 25px;
+            color: #FFFFFF;
+            font-weight: 700;
+            font-family: "Lord",sans-serif;
+            margin-bottom: 10px;
+            text-align: center;
+            }
+   .bg3 h4 span{
+                color: #88C417;
+            }
+    .bg3 p{
+                font-size: 16px;
+                font-weight: 500;
+                font-family: "Lord",sans-serif;
+                color: #FFFFFF;
+                text-align: center;
+                flex-direction: column;
+                padding:1em ;
+            }
+      .bg3 a{
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+                text-decoration: underline;
+                text-decoration-color: #88C417;
+                text-decoration-thickness: 2px;
+                margin-bottom: 10px;
+                margin-left: 40px;
+                padding-left: 50px;
+            }
+
+    .bg4:hover .carts-cont{
+                position: absolute;
+                left: 0;
+                bottom:0px;
+                 transition: all 0.5s;
+                 transition-delay: 0.5s;
+                }
+    .bg4 h4{
+                font-size: 25px;
+                color: #FFFFFF;
+                font-weight: 700;
+                font-family: "Lord",sans-serif;
+                margin-bottom: 10px;
+                text-align: center;
+                }
+    .bg4 h4 span{
+                    color: #88C417;
+                }
+    .bg4 p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: "Lord",sans-serif;
+                    color: #FFFFFF;
+                    text-align: center;
+                    flex-direction: column;
+                    padding:1em ;
+                }
+    .bg4 a{
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-decoration: underline;
+                    text-decoration-color: #88C417;
+                    text-decoration-thickness: 2px;
+                    margin-bottom: 10px;
+                    margin-left: 40px;
+                    padding-left: 50px;
+            }
+
+    .bg5:hover .carts-cont{
+                    position: absolute;
+                    left: 0;
+                    bottom:0px;
+                     transition: all 0.5s;
+                     transition-delay: 0.5s;
+                    }
+    .bg5 h4{
+                    font-size: 25px;
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    font-family: "Lord",sans-serif;
+                    margin-bottom: 10px;
+                    text-align: center;
+             }
+    .bg5 h4 span{
+                        color: #88C417;
+                    }
+    .bg5 p{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: "Lord",sans-serif;
+                        color: #FFFFFF;
+                        text-align: center;
+                        flex-direction: column;
+                        padding:1em ;
+                    }
+     .bg5 a{
+                        color: white;
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-decoration: underline;
+                        text-decoration-color: #88C417;
+                        text-decoration-thickness: 2px;
+                        margin-bottom: 10px;
+                        margin-left: 40px;
+                        padding-left: 50px;
+             }
+    .fc3 p a{
+        text-decoration: none;
+        padding-left: 2px;
+       
+    }
+       .f1{
+        background-color: #182143;
+        width:100%;
+       } 
+       .footer1 p{
+        color: #9b9b9b;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Lord",sans-serif;
+       
+       }  
+       .footer2 p{
+        color: #9b9b9b;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Lord",sans-serif;
+       }  
+       .footer2 i{
+        color: red;
+       }
+/* me  dia*/
+@media screen and (max-width: 600px) {
+    .anc0 ,#anc {
+      display: none;
+    }
+  }
+  @media screen and (max-width:577px){
+   .hc-1 , .iconsa {
+        display: none;
+    }
+  }
+@media only screen and (max-width: 1042px) {
+    .Navbar__Items--right,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items--right {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+      margin-left: 70%;
+     } 
+  }
+
+@media only screen and (min-width:577px) and (max-width:769px){
+ #card2{
+    display: none;
+ }
+ .divcard1{
+    width: 300%;
+    top: 70%;
+ }
+ .divcard1 p{
+    padding-bottom: 0%;
+ }
+ #card1{
+   display: none;
+ }
+ .sd2{
+    padding-top: 20%;
+    padding-left: 0%;
+ }
+ #icon4{
+    display: none;
+ }
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .card1 img{
+        left:40%;
+        top: -40px;
+        
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .la1{
+        padding-left: 10%;
+    }
+    .la1 p{
+        font-size: 10px;
+    }
+}
+/* @media screen and (min-width:368px) and (max-width:767px){
+    .card1 img{
+        left:150%;
+        top: -50px;
+        
+    }
+} */
+@media only screen and (max-width:995px) {
+    form{
+     margin: 0px;
+    }
+     
+ }
+ @media only screen and (min-width:400px) and (max-width:425px){
+    .card1 img{
+        position: absolute;
+        left: 0%;
+        /* margin-left: 10px; */
+    }
+    .card1{
+        margin-left:20px;
+    }
+    
+    }
+ 
+ /* @media screen and (max-width:767px){
+    .card1 img{
+        left:18em;
+        position: absolute;
+    }
+    } */
+ @media all and (max-width:768px){
+    .anco{
+       margin-left: 50px;
+    }
+    .bgs1{
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 5px;
+    }
+    .bg1{
+         width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+         
+      
+    }
+    .bg2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg3{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;    }
+    .bg4{
+        width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    .bg5{
+        width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    form{
+        margin:15%;
+    }
+    .divcard1{
+        margin-left: 30%;
+    }
+    .divcard1 img{
+        left:40%;
+    }
+   .sd2{
+   padding-bottom: 30%;
+   }
+}
+
+@media all and (max-width : 765px){
+    /* .card1 img{
+        position:absolute;
+        left:0em;
+    }
+    .card1{
+        padding-block: 10%;
+        padding-inline: 10%;
+        position: relative; */
+    /* } */
+    .icons{
+        display: none;
+
+    }
+    .sd2{
+        padding-bottom: 130%;
+    }
+    /* .card1{
+        text-align: center;
+        padding-block: 10%;
+        padding-inline: 10%;
+        background-color: #F6F6F6;
+        position: relative;
+        margin: 5%;
+        width: 100%;
+    } */
+    .jacob{
+        flex-direction: column;
+    }
+    /* .card1 img{
+        position: absolute;
+       top: -20px;
+       left: 7em;
+       height: 15vh;
+       width: 20%;
+    } */
+    .c1r{
+        flex-direction: column;
+    }
+    .sh{
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:576px){
+    #card1{
+        display:none
+    }
+    #card2{
+        display:none
+    }
+    .divcard1{
+        width: 300%;
+        margin:40%;
+    }
+    .divcard1 h3{
+        padding-top: 20%;
+    }
+    .divcard1 img{
+        width: 25%;
+        height: 20%;
+        top:-50px;
+    }
+}
+@media screen and (max-width:400px){
+    .img-1{
+        width: 60%;
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+    
+}
+@media only screen and (max-width:384px){
+    .block-1 a{
+        padding: 10px;
+
+    }
+    .anco{
+        margin: 0px;
+    }
+  
+}
+@media only screen and (min-width:330px) and (max-width:376px){
+    .card1 img{
+        position: absolute;
+        left:7em;
+    }
+    .card1{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:320px){
+    .card1 img{
+        position: absolute;
+        left:6em;
+        width:60px;
+        top:-30px;
+    }
+    .card1{
+        margin-left: 20px;
+    }
+} 
+@media only screen and (max-width:319px){
+    .divcard1{
+        width: 100%;
+      
+    }
+}

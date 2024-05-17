@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(244, 250, 252);
+    font-family:sans-serif
+}
+.main_content{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 720px; */
+    opacity: 0.8;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 3%;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8) 0, rgba(47, 40, 40, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.netflix{
+    width: 70%;
+}
+.check_box{
+    width: 10%;
+}
+.sign_up{
+    width: 10%;
+}
+.netflix img{
+    width: 30%;
+}
+.check_box button{
+    width: 85%;
+    color: white;
+    background-color: black;
+    padding-block: 8%;
+    border-radius: 4px;
+}
+.sign_up button{
+    width: 70%;
+    color: white;
+    background-color: rgb(228, 9, 9);
+    padding-block: 8%;
+    border-radius: 7px;
+}
+
+.matter{
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 10%;
+}
+.matter h1{
+    font-size: 50px;
+}
+
+
+.link_in{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+}
+.email{
+    width: 25%;
+}
+.email input{
+    width: 95%;
+    color: rgb(13, 13, 13);
+    background-color: rgb(181, 169, 169);
+    padding-block: 5%;
+    border-radius: 7px;
+    font-size: 20px;
+    opacity: 0.5;
+    border: 2px solid red;
+}
+.get_started{
+width: 15%;
+}
+.get_started button{
+    width: 100%;
+    color: white;
+    background-color: rgb(228, 9, 9);
+    padding-block: 6%;
+    border-radius: 7px;
+    font-size: 30px;
+}
+
+
+.tv_matter
+{
+    background-color: black;
+    width: 100%;
+}
+.bg_color{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.left_matter{
+    width: 50%;
+    padding-top: 15%;
+}
+.left_matter h1{
+    font-size: 60px;
+    line-height: 120px;
+}
+.right_tv{
+    width: 50%;
+}
+
+
+
+.tv_matter1
+{
+    background-color: black;
+    width: 100%;
+}
+.bg_color1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.small_color{
+    background-color: rgb(215, 16, 16);
+    width: 30%;
+    border: 40px solid white;
+    position: absolute;
+    left: 15%;
+    bottom: -80%;
+}
+.left_matter1{
+    width: 50%;
+    padding-top: 15%;
+}
+.left_matter1 h1{
+    font-size: 60px;
+    line-height: 120px;
+}
+.right_tv1{
+    width: 55%;
+}
+.img{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    left: 22%;
+    top: 210%;
+    width: 7%;
+}
+
+.frequently{
+    background-color: black;
+    width: 100%;
+}
+.frequently h1{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.questions{
+    background-color: rgb(30, 26, 26);
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
+    padding-block: 1.5%;
+    display: flex;
+}
+.questions h2{
+    width: 90%;
+    margin: auto;
+    padding-left: 2%;
+}
+.questions p{
+    width: 10%;
+    font-size: 50px;
+}
+.frequently h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+footer h3{
+    text-align: center;
+    width: 40%;
+    padding-top: 3%;
+}
+.footer1{
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+    display: flex;
+}
+.faq{
+    width: 60%;
+}
+.faq p{
+    line-height: 36px;
+}
+.check_box1{
+    margin: auto;
+    width: 80%;
+}
+.check_box1 button{
+    width: 10%;
+    color: white;
+    background-color: black;
+    padding-block: 1%;
+    border-radius: 4px;
+    margin: auto;
+}
+footer h4{
+    text-align: center;
+    width: 26%;
+    padding-top: 0.5%;
+    padding-bottom: 5%;
+}
+   
+
+
+/* media querry */
+
+@media all and (max-width:768px) {
+.main_content{
+    width: 100% ;
+}
+.nav{
+    width: 100%;
+}
+.netflix{
+    width: 100%; 
+}
+.check_box{
+    width: 100%;
+}
+.check_box button{
+    width: 100%;
+}
+.sign_up{
+    width: 100%;
+}
+
+.matter{
+    width: 100%;
+}
+.link_in{
+    width: 100%;
+}
+.email{
+    width: 100%;
+}
+.get_started{
+    width: 100%;
+}
+
+
+.tv_matter{
+    width: 100%;
+    flex-direction: column;
+}
+.bg_color{
+    width: 100%;
+    flex-direction: column;
+}
+.left_matter{
+    width: 90%;
+    margin: auto;
+}
+.right_tv{
+    width: 90%;
+}
+.right_tv img{
+    width: 100%;
+}
+
+
+.tv_matter1{
+    width: 100%;
+    flex-direction: column;
+}
+.bg_color1{
+    width: 100%;
+    flex-direction: column;
+}
+.left_matter1{
+    width: 90%;
+    margin: auto;
+}
+.right_tv1{
+    width: 90%;
+}
+.right_tv1 img{
+    width: 100%;
+}
+.right_tv1 img{
+    position: absolute;
+    left: 22%;
+    top: 320%;
+    width: 10%;
+}
+
+
+.frequently{
+    width: 100%;
+}
+.questions{
+    width: 90%;
+}
+
+.link_in{
+    width: 100%;
+}
+.email{
+    width: 90%;
+}
+.get_started{
+    width: 90%;
+}
+
+footer{
+    width: 100%;
+}
+footer h3{
+    width: 100%;
+}
+.footer1{
+    width: 90%;
+}
+.faq{
+    width: 90%;
+}
+
+.check_box1{
+    width: 60%;
+}
+.check_box1 button{
+    width: 50%;
+}
+footer h4{
+    width: 30%;
+}
+}
+@media all and (min-width:769px) and (max-width:1024px) {
+    .right_tv img{
+        width: 100%;
+        padding-top: 30%;
+        padding-left: 10%;
+    }
+    /* .left_matter h1{
+        font-size: 30px;
+    } */
+    .right_tv1 {
+        width: 80%;
+    }
+    .left_matter1{
+        width: 80%;
+    }
+    .left_matter1 h1{
+       font-size: 30px;
+    }
+}

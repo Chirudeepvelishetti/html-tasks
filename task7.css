@@ -1,0 +1,404 @@
+.s1{
+    background-image: url("https://st4.depositphotos.com/1040130/27780/i/600/depositphotos_277801166-stock-photo-female-dancer-posing-with-pylon.jpg");
+    width:100%;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.r1{
+    width:100%;
+}
+.home1 h1{
+    font-size: 5rem;
+    font-family: impact;
+    font-weight: 500;
+    color: white;
+    padding-left: 10%;
+}
+.home1 p{
+    font-size: 19px;
+    color: white;
+    padding-right: 60%;
+    padding-top: 1.5%;
+    padding-left: 10%;
+}
+.home1 button{
+    padding-inline: 10%;
+    padding-block: 1%;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    margin-left: 10%;
+    background-color: #FF6408;
+    border: none;
+}
+.s2{
+    background-color: #FF6408;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+.r2{
+    width: 100%;
+}
+.home2 h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bahnschrift Condensed;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 2%;
+}
+.home2 p{
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-inline: 20%;
+    color: whitesmoke;
+    padding-bottom: 5%;
+}
+.home2-1{
+    background-image: url("https://www.topdoctors.co.uk/files/Image/large/9f581d006a199e330313435cbced733d.png");
+    padding-top: 60%;
+    margin-left: 15%;
+    background-size: cover;
+}
+.home2-2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMCAF5Jd8BDYc3khmNmT9adiTzSZbmkV6YRCNT7xEsHnUKAJnGK_rq0g7Mc58SMxeWdgE&usqp=CAU");
+    background-size: cover;
+    object-fit: cover;
+    background-position: 100% 0%;
+    padding-top:60%;
+    margin-inline: 7%;
+    
+}  
+.home2-3{
+    background-image: url("https://c0.wallpaperflare.com/preview/306/590/575/man-male-dance-model.jpg");
+    padding-top: 60%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 100% 0%;
+    margin-right: 15%;
+}   
+#H2{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}  
+#p1{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+    padding-inline: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.s3{
+    background-image: url("https://t4.ftcdn.net/jpg/02/72/16/05/240_F_272160587_O5f28QGs1BIfX2moZr0Ex9ldRpzmCqUR.jpg");
+    width: 100%;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.home3 h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bahnschrift Condensed;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 2%;
+}
+.home3 p{
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-inline: 20%;
+    color: whitesmoke;
+    padding-bottom: 5%;
+}
+.b1{
+    background-color: #FF6408;
+    padding-top: 40%;  
+    margin-left: 20%;
+    padding-bottom: 10%;
+}
+.b1 img{
+    width: 100%;
+  
+   margin-top: -30%;
+}
+.b2 img{
+    width: 100%;
+   margin-top: -30%;
+}
+.b3 img{
+    width: 100%;
+   margin-top: -30%;
+}
+.b2{
+    background-color: #FF6408;
+    padding-top: 40%;
+    padding-bottom: 10%;
+    margin-inline: 10%;
+}
+.b3{
+    background-color: #FF6408;
+    padding-top: 40%;
+    padding-bottom: 10%;
+    margin-right: 20%;
+}
+.s4{
+    background-image: url("https://wallpapercave.com/wp/wp9184891.jpg");
+    width: 100%;
+    background-size: cover;
+    padding-top: 7%;
+}
+.home4 h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bahnschrift Condensed;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 2%;
+}
+.home4 p{
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-inline: 20%;
+    color: whitesmoke;
+    padding-bottom: 10%;
+}
+.home4-1{
+    color: white;
+    padding-left: 35%;
+}
+.home4-1 p{
+    font-size:18px;
+}
+.s5{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/211/818/512/music-wallpaper-preview.jpg");
+    width: 100%;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+.r5{
+    width: 100%;
+}
+.home5 p{
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-inline: 20%;
+    color: whitesmoke;
+    padding-bottom: 10%;
+}
+.home5 h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bahnschrift Condensed;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 2%;
+}
+.s6{
+    background-color: #FF6408;
+    width: 100%;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.home6 h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bahnschrift Condensed;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 2%;
+}
+.home6 p{
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-inline: 20%;
+    color: whitesmoke;
+    padding-bottom: 5%;
+}
+.home6-1 input{
+    padding-right: 30%;
+    padding-block: 0.8%;
+    margin-left: 23%;
+    border: none;
+}
+.home6-1 button{
+    color: white;
+    padding-block: 0.8%;
+    background-color: black;
+    font-size: 20px;
+    padding-inline: 2%;
+}
+.s7{
+    background-color: black;
+    width: 100%;
+    padding-top: 5%;
+}
+.home7 h4{
+    color: white;
+    font-size: 2em;
+    font-style: Bahnschrift Condensed;
+    padding-bottom: 2%;
+}
+.home7 p{
+    color: white;
+    font-size: 16px;
+} 
+.home71{
+    padding-left: 30%;
+}
+.home72{
+    padding-left: 30%;
+}
+.home73{
+    padding-left: 30%;
+}
+.home71 h4{
+    color: white;
+    font-size: 2em;
+    font-style: Bahnschrift Condensed;
+    padding-bottom: 2%;
+}
+.home71 p{
+    color: white;
+    font-size: 16px;
+}
+.home72 h4{
+    color: white;
+    font-size: 2em;
+    font-style: Bahnschrift Condensed;
+    padding-bottom: 2%;
+}
+.home72 p{
+    color: white;
+    font-size: 16px;
+}  
+.home73 h4{
+    color: white;
+    font-size: 2em;
+    font-style: Bahnschrift Condensed;
+    padding-bottom: 2%;
+}
+.home73 p{
+    color: white;
+    font-size: 16px;
+} 
+@media all and (max-width:574px){
+    .home1 h1{
+        font-size: 3rem;
+    }
+    .home1 p{
+        font-size: 16px;
+        padding-right: 0;
+    }
+    .home2 h1{
+        font-size: 2.5rem;
+    }
+    .home2 p{
+        font-size: 13px;
+        padding-inline: 5%
+    }
+    .r2-1{
+        flex-direction: column;
+    }
+    .home2-1{
+        margin-left: 0%;
+    }
+    .home2-2{
+        margin-inline: 0;
+    }
+    .home2-3{
+        margin-right: 0;
+    }
+    .home3 h1{
+        font-size: 3rem;
+    }
+    .home3 p{
+        font-size: 14px;
+        padding-inline: 8%;
+    }
+    .home4 h1{
+        font-size: 2.5rem;
+    }
+    .home4 p{
+        font-size: 14px;
+        padding-inline: 5%;
+    }
+    .home4-1{
+        padding-left: 5%;
+    }
+    .home5 h1{
+        font-size: 3rem;
+    }
+    .home5 p{
+        font-size: 14px;
+        padding-inline: 5%;
+        margin-left: 5%;  
+    }
+    .home6 h1{
+        font-size: 3rem;
+    }
+    .home6 p{
+        font-size: 14px;
+        padding-inline: 5%;
+    }
+    .home6-1 input{
+        padding-right: 10%;
+        margin-left: 5%;
+    }
+    .home6-1 button{
+        margin: 0;
+        padding-inline: 1%;
+        font-size: 10px;
+    }
+    .home7{
+        padding-left: 10%;
+    }
+    .home7 h4{
+        font-size: 1.5rem;
+    }
+    .home7 p{
+        font-size: 12px;
+    }
+    .home71{
+        padding-left: 10%;
+    }
+    .home71 h4{
+        font-size: 1.5rem;
+    }
+    .home72{
+        padding-left: 15%;
+    }
+    .home72 h4{
+        font-size: 1.5rem;
+    }
+    .home73 h4{
+        font-size: 1.5rem;
+    }
+    .home71 p{
+        font-size: 12px;
+    }
+    .home72 p{
+        font-size: 12px;
+    }
+    .home73 p{
+        font-size: 12px;
+    }
+  }
